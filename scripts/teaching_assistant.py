@@ -15,7 +15,8 @@ logger = logging.getLogger(__name__)
 class StaticsMechanicsTA:
     def __init__(self, base_path: str, api_key: str):
         self.base_path = Path(base_path)
-        self.rag = StaticsMechanicsRAG(base_path)
+        # Use e5-large-v2 for query embeddings to match deployed embeddings
+        self.rag = StaticsMechanicsRAG(base_path, model_name="intfloat/e5-large-v2")
         self.client = OpenAI(api_key=api_key)
         self.session_id = str(uuid.uuid4())  # Generate unique session ID
         
