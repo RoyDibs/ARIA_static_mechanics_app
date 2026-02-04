@@ -1263,7 +1263,7 @@ def main():
                 return
     
     st.markdown(
-        '<h1 class="app-title"><em>ARIA</em>: Teaching Assistant for Statics and Mechanics of Materials (EN.560.201)</h1>',
+        '<h1 class="app-title" style="font-size: 3rem !important;"><em>ARIA</em>: Teaching Assistant for Statics and Mechanics of Materials (EN.560.201)</h1>',
         unsafe_allow_html=True
     )
     
