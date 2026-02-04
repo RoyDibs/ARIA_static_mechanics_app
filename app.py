@@ -1263,7 +1263,25 @@ def main():
                 return
     
     st.markdown(
-        '<h1 class="app-title" style="font-size: 3rem !important;"><em>ARIA</em>: Teaching Assistant for Statics and Mechanics of Materials (EN.560.201)</h1>',
+        '''
+        <style>
+        #aria-main-title {
+            font-size: 48px !important;
+            font-weight: 700 !important;
+            text-align: center !important;
+            margin: 0 0 1rem 0 !important;
+            letter-spacing: 0.2px !important;
+            line-height: 1.2 !important;
+            color: #3C2E1E !important;
+            font-family: "Cambria", "Times New Roman", serif !important;
+        }
+        #aria-main-title em {
+            font-style: italic !important;
+            font-size: inherit !important;
+        }
+        </style>
+        <div id="aria-main-title"><em>ARIA</em>: Teaching Assistant for Statics and Mechanics of Materials (EN.560.201)</div>
+        ''',
         unsafe_allow_html=True
     )
     
