@@ -132,7 +132,7 @@ code, pre, kbd, samp {
   line-height:1.2;
   margin:0 0 1rem 0;
   letter-spacing:.2px;
-  font-size:clamp(2.6rem, 2.8vw + 2rem, 3.6rem);
+  font-size:clamp(2.8rem, 3vw + 2.2rem, 4rem);
 }
 
 /* Headings scale */
@@ -1068,7 +1068,7 @@ p, div, span, label, li, small, em, strong,
 
 /* keep your custom title size */
 h1.app-title{
-  font-size: clamp(2.2rem, 2.4vw + 1.8rem, 3.2rem) !important;
+  font-size: clamp(2.8rem, 3vw + 2.2rem, 4rem) !important;
 }
 
 /* ARIA text styling in title - maintains visual consistency */
